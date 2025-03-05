@@ -18,22 +18,17 @@ You can install the necessary libraries using the following pip command:
 
 ```bash
 pip install beautifulsoup4 requests
-
 Usage
 Clone the repository:
 
-bash
-Copy
+
 git clone https://github.com/yourusername/web-scraping-quotes.git
 Navigate to the project directory:
 
-bash
-Copy
+
 cd web-scraping-quotes
 Run the Python script to scrape quotes and authors:
 
-bash
-Copy
 python scraped_quotes.py
 The quotes will be saved in a CSV file called scraped_quotes.csv in the same directory.
 
@@ -42,7 +37,7 @@ The script sends a GET request to the URL https://quotes.toscrape.com/ using the
 
 Example Output (scraped_quotes.csv)
 csv
-Copy
+
 QUOTES,AUTHORS
 "The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.",Albert Einstein
 "It is our choices that show what we truly are, far more than our abilities.",J.K. Rowling
@@ -53,7 +48,5 @@ If you'd like to contribute to this project, feel free to fork the repository, c
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-vbnet
-Copy
 
 This version has the proper formatting with sections separated, code blocks, and bullet points for readability. Let me know if you need anything else!
